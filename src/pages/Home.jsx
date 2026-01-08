@@ -14,7 +14,7 @@ export default function Home() {
     return (
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-16">
             {/* Hero Section */}
-            <section className="relative w-full h-[500px] lg:h-[600px] rounded-3xl overflow-hidden shadow-2xl group">
+            <section className="relative w-full h-[500px] lg:h-[600px] rounded-3xl overflow-hidden shadow-2xl group animate-fadeIn animate-fill-both">
                 <img
                     alt="Hero"
                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
@@ -22,7 +22,7 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
                 <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4">
-                    <div className="relative">
+                    <div className="relative animate-fadeInDown animate-fill-both animate-delay-200">
                         <h1 className="font-display font-black text-7xl md:text-9xl text-white tracking-widest uppercase drop-shadow-xl select-none">
                             {home.hero.title}
                         </h1>
@@ -33,7 +33,7 @@ export default function Home() {
                     <p className="mt-4 max-w-2xl text-white/90 text-sm md:text-base font-light tracking-wide">
                         {home.hero.description}
                     </p>
-                    <div className="mt-8 flex gap-4">
+                    <div className="mt-8 flex gap-4 animate-fadeInUp animate-fill-both animate-delay-400">
                         {home.hero.cta.map((cta, index) => (
                             <Link
                                 key={index}
@@ -52,7 +52,7 @@ export default function Home() {
 
             {/* Why Choose Us & Stats */}
             <section className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div className="space-y-8">
+                <div className="space-y-8 animate-slideInLeft animate-fill-both">
                     <div>
                         <h2 className="font-display font-bold text-3xl md:text-4xl leading-tight text-gray-900">
                             {home.features.title}
@@ -79,7 +79,7 @@ export default function Home() {
                         ))}
                     </div>
                 </div>
-                <div className="space-y-4">
+                <div className="space-y-4 animate-slideInRight animate-fill-both animate-delay-200">
                     {home.features.cards.map((card, idx) => (
                         <div key={idx} className="bg-secondary text-white p-6 rounded-2xl flex items-start gap-4 shadow-lg transform transition hover:-translate-y-1">
                             <div className="bg-white/20 p-3 rounded-xl flex-shrink-0">
@@ -95,7 +95,7 @@ export default function Home() {
             </section>
 
             {/* Featured Destinations */}
-            <section className="bg-surface rounded-3xl p-8 md:p-12">
+            <section className="bg-surface rounded-3xl p-8 md:p-12 animate-fadeInUp animate-fill-both">
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-8 gap-4">
                     <div>
                         <h2 className="font-display font-bold text-2xl text-gray-900">Top Destinations</h2>
@@ -123,7 +123,7 @@ export default function Home() {
             </section>
 
             {/* Packages Section */}
-            <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <section className="grid grid-cols-1 md:grid-cols-3 gap-6 animate-fadeInUp animate-fill-both animate-delay-100">
                 <div className="bg-secondary rounded-3xl p-8 flex flex-col justify-between shadow-xl">
                     <div>
                         <h2 className="font-display font-bold text-2xl text-white mb-3">Tour Packages</h2>
@@ -154,7 +154,7 @@ export default function Home() {
             </section>
 
             {/* Booking Steps */}
-            <section className="py-12 border-t border-gray-100">
+            <section className="py-12 border-t border-gray-100 animate-fadeIn animate-fill-both animate-delay-200">
                 <h2 className="font-display font-bold text-xl md:text-2xl text-gray-900 mb-8">{home.bookingSteps.title}</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {home.bookingSteps.steps.map((step, idx) => (

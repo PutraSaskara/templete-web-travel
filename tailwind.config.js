@@ -20,7 +20,19 @@ export default {
             fontFamily: {
                 display: "var(--font-display)",
                 body: "var(--font-body)",
-            }
+            },
+            animation: {
+                'fadeIn': 'fadeIn 0.6s ease-out',
+                'fadeInUp': 'fadeInUp 0.6s ease-out',
+                'fadeInDown': 'fadeInDown 0.6s ease-out',
+                'slideInLeft': 'slideInLeft 0.6s ease-out',
+                'slideInRight': 'slideInRight 0.6s ease-out',
+                'scaleUp': 'scaleUp 0.5s ease-out',
+                'float': 'float 3s ease-in-out infinite',
+                'pulseGlow': 'pulseGlow 2s ease-in-out infinite',
+                'bounceIn': 'bounceIn 0.6s ease-out',
+                'shimmer': 'shimmer 2s linear infinite',
+            },
         },
     },
     plugins: [

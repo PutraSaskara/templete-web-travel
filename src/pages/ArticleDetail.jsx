@@ -12,19 +12,26 @@ export default function ArticleDetail() {
         setArticle(foundArticle);
     }, [slug]);
 
-    if (!article) return <div className="p-16 text-center text-gray-500">Article not found...</div>;
+    if (!article) return <div className="p-16 text-center text-gray-500 animate-pulse">Article not found...</div>;
 
     return (
-        <div className="max-w-4xl mx-auto px-4 py-12">
-            <Link to="/blog" className="inline-flex items-center gap-2 text-gray-500 hover:text-primary mb-8 transition-colors">
+        <div className="max-w-4xl mx-auto px-4 py-12 animate-fadeIn animate-fill-both">
+            <Link
+                to="/blog"
+                className="inline-flex items-center gap-2 text-gray-500 hover:text-primary mb-8 transition-colors animate-fadeInUp animate-fill-both"
+            >
                 <ArrowLeft size={20} /> Back to Blog
             </Link>
 
-            <div className="rounded-3xl overflow-hidden shadow-2xl mb-10 h-[400px]">
-                <img src={article.image} alt={article.title} className="w-full h-full object-cover" />
+            <div className="rounded-3xl overflow-hidden shadow-2xl mb-10 h-[400px] animate-scaleUp animate-fill-both animate-delay-100 group">
+                <img
+                    src={article.image}
+                    alt={article.title}
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
             </div>
 
-            <div className="flex items-center gap-6 text-sm text-gray-500 mb-6">
+            <div className="flex items-center gap-6 text-sm text-gray-500 mb-6 animate-fadeInUp animate-fill-both animate-delay-200">
                 <div className="flex items-center gap-2">
                     <Calendar size={18} className="text-primary" />
                     {article.date}
@@ -35,12 +42,12 @@ export default function ArticleDetail() {
                 </div>
             </div>
 
-            <h1 className="font-display font-black text-3xl md:text-5xl text-gray-900 mb-8 leading-tight">
+            <h1 className="font-display font-black text-3xl md:text-5xl text-gray-900 mb-8 leading-tight animate-fadeInUp animate-fill-both animate-delay-300">
                 {article.title}
             </h1>
 
             <div
-                className="prose prose-lg prose-blue max-w-none text-gray-700"
+                className="prose prose-lg prose-blue max-w-none text-gray-700 animate-fadeIn animate-fill-both animate-delay-400"
                 dangerouslySetInnerHTML={{ __html: article.content }}
             />
         </div>

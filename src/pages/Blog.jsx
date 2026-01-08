@@ -8,16 +8,21 @@ export default function Blog() {
     const { articles } = siteConfig;
 
     return (
-        <div className="max-w-7xl mx-auto px-4 py-12">
-            <div className="text-center mb-16">
+        <div className="max-w-7xl mx-auto px-4 py-12 animate-fadeIn animate-fill-both">
+            <div className="text-center mb-16 animate-fadeInDown animate-fill-both">
                 <h1 className="font-display font-bold text-4xl mb-4">{blog.title}</h1>
                 <p className="text-gray-500">{blog.subtitle}</p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {articles.map((article) => (
-                    <Link key={article.id} to={`/blog/${article.slug}`} className="block group">
-                        <article className="bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow h-full">
+                {articles.map((article, idx) => (
+                    <Link
+                        key={article.id}
+                        to={`/blog/${article.slug}`}
+                        className="block group animate-scaleUp animate-fill-both"
+                        style={{ animationDelay: `${idx * 100}ms` }}
+                    >
+                        <article className="bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 h-full hover:-translate-y-1">
                             <div className="aspect-video relative overflow-hidden">
                                 <img src={article.image} alt={article.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                             </div>
