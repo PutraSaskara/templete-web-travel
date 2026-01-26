@@ -18,6 +18,7 @@ export const siteConfig = {
     },
     global: {
         siteName: "BaliForTour",
+        siteUrl: "https://balifortour.com", // Change this to your actual domain
         navbar: {
             logoText: "BaliForTour",
             links: [
