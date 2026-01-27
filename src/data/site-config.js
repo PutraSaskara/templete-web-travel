@@ -1,24 +1,24 @@
 export const siteConfig = {
     theme: {
         colors: {
-            primary: "#1a5632", // Bali Green - representing rice fields and nature
-            secondary: "#d4a574", // Bali Brown - traditional wood and earth tones
-            accent: "#d4af37", // Bali Gold - ceremonial gold accents
-            background: "#fefefe",
-            surface: "#f8f3e9", // Cream surface
-            text: "#2c1810", // Dark brown for text
+            primary: "#2563eb", // Vibrant Blue - representing Bali's ocean and sky
+            secondary: "#059669", // Emerald Green - lush tropical nature
+            accent: "#f59e0b", // Golden Amber - warm Balinese sun
+            background: "#ffffff",
+            surface: "#f0f9ff", // Light blue surface
+            text: "#1f2937", // Dark gray for text
         },
         layout: {
-            radius: "0.5rem",
+            radius: "0.75rem",
         },
         fonts: {
             display: "'Playfair Display', serif",
-            body: "'Open Sans', sans-serif",
+            body: "'Inter', sans-serif",
         }
     },
     global: {
         siteName: "BaliForTour",
-        siteUrl: "https://balifortour.com", // Change this to your actual domain
+        siteUrl: "https://balifortour.com",
         navbar: {
             logoText: "BaliForTour",
             links: [
@@ -39,7 +39,7 @@ export const siteConfig = {
                 title: "BALI",
                 subtitle: "FOR TOUR",
                 description: "Experience the magic of Bali with authentic cultural tours, breathtaking landscapes, and spiritual journeys curated by local experts.",
-                image: "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?q=80&w=2072&auto=format&fit=crop",
+                image: "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80",
                 cta: [
                     { label: "Explore Bali Tours", href: "/packages", variant: "primary" },
                     { label: "Bali Travel Guide", href: "/blog", variant: "outline" }
@@ -76,7 +76,7 @@ export const siteConfig = {
             title: "About BaliForTour",
             subtitle: "Connecting travelers with the true spirit of Bali.",
             description: "Founded by Balinese locals in 2010, BaliForTour is dedicated to sharing the authentic beauty of our island. We believe in respectful tourism that honors Balinese traditions while providing unforgettable experiences for our guests.",
-            image: "https://images.unsplash.com/photo-1551632811-561732d1e306?q=80&w=2070&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
             stats: [
                 { label: "Years in Bali Tourism", value: "15+" },
                 { label: "Cultural Experiences", value: "200+" },
@@ -102,7 +102,7 @@ export const siteConfig = {
             price: "Rp 3,500,000",
             rating: "4.9 (1.5k)",
             location: "Ubud, Bali",
-            image: "https://images.unsplash.com/photo-1588666309990-d68f08e3d4c6?q=80&w=2058&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1580251645806-239f4df8ce13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
             description: "Immerse yourself in Bali's cultural capital with temple visits, traditional dance, and rice field trekking.",
             highlights: ["Sacred Monkey Forest", "Tegalalang Rice Terraces", "Traditional Dance Performance", "Purification Ceremony"],
             featured: true
@@ -115,7 +115,7 @@ export const siteConfig = {
             price: "Rp 2,800,000",
             rating: "4.8 (1.2k)",
             location: "Nusa Penida, Bali",
-            image: "https://images.unsplash.com/photo-1513415756790-2ac1db1297d0?q=80&w=1974&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2092&q=80",
             description: "Discover the dramatic cliffs and crystal-clear waters of Bali's most spectacular island.",
             highlights: ["Kelingking Beach", "Angel's Billabong", "Broken Beach", "Crystal Bay Snorkeling"],
             featured: true
@@ -128,7 +128,7 @@ export const siteConfig = {
             price: "Rp 1,200,000",
             rating: "4.9 (2.3k)",
             location: "Kintamani, Bali",
-            image: "https://images.unsplash.com/photo-1514611061217-dc8b0b5d4c7c?q=80&w=2070&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2056&q=80",
             description: "Witness Bali's most breathtaking sunrise from an active volcano with breakfast cooked by steam.",
             highlights: ["Sunrise Summit", "Volcanic Steam Cooking", "Hot Spring Visit", "Lake Batur View"],
             featured: true
@@ -141,7 +141,7 @@ export const siteConfig = {
             price: "Rp 2,100,000",
             rating: "4.7 (980)",
             location: "Uluwatu, Bali",
-            image: "https://images.unsplash.com/photo-1552465011-b4e30bf7349d?q=80&w=2069&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1552465011-b4e30bf7349d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80",
             description: "Explore Bali's most dramatic cliffs, sacred temples, and witness the famous Kecak fire dance.",
             highlights: ["Uluwatu Temple", "Kecak Fire Dance", "Padang Padang Beach", "Jimbaran Bay Seafood Dinner"],
             featured: true
@@ -154,7 +154,7 @@ export const siteConfig = {
             price: "Rp 2,500,000",
             rating: "4.8 (1.1k)",
             location: "North Bali",
-            image: "https://images.unsplash.com/photo-1534008897995-27a23e859048?q=80&w=1974&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1534008897995-27a23e859048?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
             description: "Chase the most spectacular waterfalls in North Bali, away from the tourist crowds.",
             highlights: ["Sekumpul Waterfall", "Gitgit Waterfall", "Ulun Danu Temple", "Coffee Plantation Visit"],
             featured: false
@@ -167,7 +167,7 @@ export const siteConfig = {
             price: "Rp 850,000",
             rating: "4.9 (850)",
             location: "Various Villages",
-            image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=1971&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1971&q=80",
             description: "Learn authentic Balinese recipes in a traditional family compound with local chefs.",
             highlights: ["Market Visit", "Spice Preparation", "5 Traditional Dishes", "Recipe Booklet"],
             featured: false
@@ -180,7 +180,7 @@ export const siteConfig = {
             price: "Rp 3,200,000",
             rating: "4.7 (720)",
             location: "East Bali",
-            image: "https://images.unsplash.com/photo-1528164344705-47542687000d?q=80&w=2092&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1578662991408-1e2d4f74e66d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
             description: "Visit Bali's most important water temples and participate in traditional purification rituals.",
             highlights: ["Tirta Gangga", "Lempuyang Temple", "Taman Ujung", "Traditional Blessing Ceremony"],
             featured: false
@@ -193,7 +193,7 @@ export const siteConfig = {
             price: "Rp 2,900,000",
             rating: "4.8 (1.4k)",
             location: "Canggu & Uluwatu",
-            image: "https://images.unsplash.com/photo-1506929562872-bb421503ef21?q=80&w=2068&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2068&q=80",
             description: "Ride Bali's legendary waves with professional surf instructors for all skill levels.",
             highlights: ["Equipment Rental", "Professional Instruction", "Beach Transfers", "Surf Photography"],
             featured: false
@@ -204,7 +204,7 @@ export const siteConfig = {
             title: "Luxury Bali Escape",
             subTitle: "Premium All-Inclusive",
             description: "Experience Bali in ultimate luxury with private villa, chauffeur, and exclusive access to top attractions.",
-            image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2070&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
             price: "Contact for quote",
             isPackage: true
         },
@@ -214,7 +214,7 @@ export const siteConfig = {
             title: "Bali Family Adventure",
             subTitle: "Kid-Friendly Experiences",
             description: "Specially curated for families with children, combining fun, education, and cultural exposure.",
-            image: "https://images.unsplash.com/photo-1551632811-561732d1e306?q=80&w=2070&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
             price: "Contact for quote",
             isPackage: true
         }
@@ -266,7 +266,7 @@ export const siteConfig = {
             `,
             date: "January 15, 2026",
             author: "Dr. Alexandra Chen",
-            image: "https://images.unsplash.com/photo-1523413363572-3c7d81c746d4?q=80&w=2070&auto=format&fit=crop"
+            image: "https://images.unsplash.com/photo-1523413363572-3c7d81c746d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
         },
         {
             id: "2",
@@ -313,7 +313,7 @@ export const siteConfig = {
             `,
             date: "December 28, 2025",
             author: "Marcus Thorne",
-            image: "https://images.unsplash.com/photo-1534008897995-27a23e859048?q=80&w=1974&auto=format&fit=crop"
+            image: "https://images.unsplash.com/photo-1534008897995-27a23e859048?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
         },
         {
             id: "3",
@@ -364,7 +364,7 @@ export const siteConfig = {
             `,
             date: "November 10, 2025",
             author: "Isabella Rossi",
-            image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=1971&auto=format&fit=crop"
+            image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1971&q=80"
         },
         {
             id: "4",
@@ -419,7 +419,7 @@ export const siteConfig = {
             `,
             date: "October 22, 2025",
             author: "Professor Kenji Tanaka",
-            image: "https://images.unsplash.com/photo-1578662991408-1e2d4f74e66d?q=80&w=2070&auto=format&fit=crop"
+            image: "https://images.unsplash.com/photo-1578662991408-1e2d4f74e66d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
         },
         {
             id: "5",
@@ -488,7 +488,7 @@ export const siteConfig = {
             `,
             date: "September 15, 2025",
             author: "Dr. Anika Schmidt",
-            image: "https://images.unsplash.com/photo-1523413363572-3c7d81c746d4?q=80&w=2070&auto=format&fit=crop"
+            image: "https://images.unsplash.com/photo-1523413363572-3c7d81c746d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
         }
     ]
 };
