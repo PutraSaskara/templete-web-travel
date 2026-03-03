@@ -141,7 +141,7 @@ export const siteConfig = {
             price: "Rp 2,100,000",
             rating: "4.7 (980)",
             location: "Uluwatu, Bali",
-            image: "https://images.unsplash.com/photo-1552465011-b4e30bf7349d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80",
+            image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
             description: "Explore Bali's most dramatic cliffs, sacred temples, and witness the famous Kecak fire dance.",
             highlights: ["Uluwatu Temple", "Kecak Fire Dance", "Padang Padang Beach", "Jimbaran Bay Seafood Dinner"],
             featured: true
@@ -180,7 +180,7 @@ export const siteConfig = {
             price: "Rp 3,200,000",
             rating: "4.7 (720)",
             location: "East Bali",
-            image: "https://images.unsplash.com/photo-1578662991408-1e2d4f74e66d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+            image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80",
             description: "Visit Bali's most important water temples and participate in traditional purification rituals.",
             highlights: ["Tirta Gangga", "Lempuyang Temple", "Taman Ujung", "Traditional Blessing Ceremony"],
             featured: false
@@ -266,7 +266,7 @@ export const siteConfig = {
             `,
             date: "January 15, 2026",
             author: "Dr. Alexandra Chen",
-            image: "https://images.unsplash.com/photo-1523413363572-3c7d81c746d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80"
         },
         {
             id: "2",
@@ -419,7 +419,7 @@ export const siteConfig = {
             `,
             date: "October 22, 2025",
             author: "Professor Kenji Tanaka",
-            image: "https://images.unsplash.com/photo-1578662991408-1e2d4f74e66d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1200&q=80"
         },
         {
             id: "5",
@@ -488,7 +488,7 @@ export const siteConfig = {
             `,
             date: "September 15, 2025",
             author: "Dr. Anika Schmidt",
-            image: "https://images.unsplash.com/photo-1523413363572-3c7d81c746d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80"
         }
     ]
 };
